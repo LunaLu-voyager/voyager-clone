@@ -1,5 +1,5 @@
-# 大文件/备份（视频压缩后另行添加）
-assets/video/interview.mp4
+# 大文件/备份
 backup-voyager-clone.zip
 __pycache__/
 *.pyc
+
