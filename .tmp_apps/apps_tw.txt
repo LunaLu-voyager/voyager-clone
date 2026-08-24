@@ -1,0 +1,35 @@
+[title]
+產品應用
+[col1-title]
+VT-Pilot®
+[col1-en]
+智能輔助駕駛
+[col1-link]
+https://voyisl.com/zh/products/#vt-pilot
+[col1-item]
+VT-AVM|https://voyisl.com/zh/products/vt-avm/|全景環視
+VT-APS|https://voyisl.com/zh/products/vt-aps/|全場景智能泊車輔助
+VT-FVC|https://voyisl.com/zh/products/vt-fvc/|ADAS 前視一體機
+VT-Vulcan®|https://voyisl.com/zh/products/vt-vulcan/|行泊一體系統
+[col2-title]
+VT-Cockpit®
+[col2-en]
+智能座艙
+[col2-link]
+https://voyisl.com/zh/products/#vt-cockpit
+[col2-item]
+VT-DVR|https://voyisl.com/zh/products/vt-dvr/|行車記錄儀
+VT-CMS（商）|https://voyisl.com/zh/products/vt-cms-cv/|電子外後視鏡
+VT-DMS|https://voyisl.com/zh/products/vt-dms/|駕駛員監控
+VT-CMS（乘）|https://voyisl.com/zh/products/vt-cms-pv/|電子外後視鏡
+VT-Smart Lighting|https://voyisl.com/zh/products/vt-smart-lighting/|智慧照明
+VT-E-Mirror|https://voyisl.com/zh/products/vt-e-mirror/|流媒體後視鏡
+VT-HUD|https://voyisl.com/zh/products/vt-hud/|抬頭顯示
+[col3-title]
+VT-Sensing
+[col3-en]
+智能感知
+[col3-link]
+https://voyisl.com/zh/products/vt-sensing/
+[col3-body]
+自研自產車規級感知攝像頭，搭配公司感知算法 —— 覆蓋 RVC、AVM/APA、FVC、SVC/CMS、DMS 與 OMS。

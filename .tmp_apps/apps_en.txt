@@ -1,0 +1,35 @@
+[title]
+Product Applications
+[col1-title]
+VT-Pilot®
+[col1-en]
+Intelligent Driving
+[col1-link]
+https://voyisl.com/zh/products/#vt-pilot
+[col1-item]
+VT-AVM|https://voyisl.com/zh/products/vt-avm/|Surround View
+VT-APS|https://voyisl.com/zh/products/vt-aps/|Automated Parking Assist
+VT-FVC|https://voyisl.com/zh/products/vt-fvc/|ADAS Front Camera
+VT-Vulcan®|https://voyisl.com/zh/products/vt-vulcan/|Drive-Park Integrated
+[col2-title]
+VT-Cockpit®
+[col2-en]
+Intelligent Cockpit
+[col2-link]
+https://voyisl.com/zh/products/#vt-cockpit
+[col2-item]
+VT-DVR|https://voyisl.com/zh/products/vt-dvr/|Driving Recorder
+VT-CMS (CV)|https://voyisl.com/zh/products/vt-cms-cv/|Electronic Side Mirror
+VT-DMS|https://voyisl.com/zh/products/vt-dms/|Driver Monitoring
+VT-CMS (PV)|https://voyisl.com/zh/products/vt-cms-pv/|Electronic Side Mirror
+VT-Smart Lighting|https://voyisl.com/zh/products/vt-smart-lighting/|Smart Lighting
+VT-E-Mirror|https://voyisl.com/zh/products/vt-e-mirror/|Streaming Rearview Mirror
+VT-HUD|https://voyisl.com/zh/products/vt-hud/|Head-Up Display
+[col3-title]
+VT-Sensing
+[col3-en]
+Intelligent Perception
+[col3-link]
+https://voyisl.com/zh/products/vt-sensing/
+[col3-body]
+Self-developed automotive-grade perception cameras paired with in-house perception algorithms - covering RVC, AVM/APA, FVC, SVC/CMS, DMS and OMS.
