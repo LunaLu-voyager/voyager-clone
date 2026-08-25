@@ -695,3 +695,12 @@ ul{list-style:none}
 /* 4. 新闻详情返回按钮 */
 .news-back{display:inline-flex;align-items:center;gap:8px;margin-bottom:26px;padding:9px 18px;border:1px solid #e6e0d4;border-radius:999px;color:#8a6d3b;font-size:14px;letter-spacing:1px;text-decoration:none;background:#fbf8f1;transition:.25s}
 .news-back:hover{border-color:#b38d54;color:#6e5528;transform:translateX(-2px)}
+
+
+/* ===== 视频加载优化 2026-08-25 ===== */
+.hero-anim{background:#101216}
+.hero-anim video{background:#101216}
+@media (max-width:768px){
+  .hero-anim{background:#101216 url('assets/img/hero-poster.webp') center/cover no-repeat;min-height:230px}
+  .hero-anim video{display:none}
+}
