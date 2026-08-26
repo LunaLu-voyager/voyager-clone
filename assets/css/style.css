@@ -701,8 +701,8 @@ ul{list-style:none}
 .hero-anim{background:#101216}
 .hero-anim video{background:#101216}
 @media (max-width:768px){
-  .hero-anim:has(video){background:#101216 url('../img/hero-poster.webp') center/cover no-repeat;min-height:230px}
-  .hero-anim:has(video) video{display:none}
+  .hero-anim:has(video){background:#101216;min-height:0}
+  .hero-anim:has(video) video{display:block}
 }
 
 
@@ -729,4 +729,19 @@ ul{list-style:none}
   .cam-row .pp img{width:48px;height:48px}
   .sensing-table th,.sensing-table td{padding:10px 12px;font-size:13px}
   .sensing-block{margin-top:22px}
+}
+
+
+/* ===== 手机端修复 2026-08-26b ===== */
+/* 新闻卡片加高（首页+企业动态页） */
+@media (max-width:640px){
+  .news-item{padding:0 0 22px}
+  .news-item .date{padding:14px 0 0 18px}
+  .news-item .date + div{padding:14px 18px 6px}
+  .news-item h4{margin-bottom:8px}
+  .news-item p{margin-bottom:2px}
+}
+/* 首页顶部蒙版减淡，露出底图 */
+@media (max-width:640px){
+  .hero-bg .veil{background:radial-gradient(700px 380px at 50% 30%,rgba(179,141,84,.22),transparent 65%),linear-gradient(180deg,rgba(10,12,16,.5),rgba(10,12,16,.7))}
 }
