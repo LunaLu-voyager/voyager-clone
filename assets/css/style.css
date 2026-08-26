@@ -768,3 +768,10 @@ ul{list-style:none}
   #techMid .tech-mid-d{display:none !important}
   #techMid .tech-mid-mb{display:block;width:100%;height:auto}
 }
+
+/* ===== 首页 home-mid 手机端裁剪图 ===== */
+.agents-img .home-mid-mb{display:none !important}
+@media (max-width:768px){
+  .agents-img .home-mid-d{display:none !important}
+  .agents-img .home-mid-mb{display:block !important;width:100%;height:auto}
+}
