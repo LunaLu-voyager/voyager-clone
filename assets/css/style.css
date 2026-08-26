@@ -745,3 +745,10 @@ ul{list-style:none}
 @media (max-width:640px){
   .hero-bg .veil{background:radial-gradient(700px 380px at 50% 30%,rgba(179,141,84,.22),transparent 65%),linear-gradient(180deg,rgba(10,12,16,.5),rgba(10,12,16,.7))}
 }
+
+
+/* ===== 手机端修复 2026-08-26c ===== */
+/* 首页通用智能体简介：手机端单行显示 */
+@media (max-width:640px){
+  .agents .wrap > p.reveal{font-size:13px;letter-spacing:0;max-width:100%;margin-bottom:30px}
+}

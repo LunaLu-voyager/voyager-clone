@@ -97,3 +97,18 @@
     });
     play();
   });
+
+(function () {
+  var vids = document.querySelectorAll("video[autoplay]");
+  if (!vids.length) return;
+  function tryPlay() {
+    vids.forEach(function (v) {
+      var p = v.play();
+      if (p && p.catch) p.catch(function () {});
+    });
+  }
+  tryPlay();
+  ["touchstart", "click", "scroll"].forEach(function (ev) {
+    document.addEventListener(ev, tryPlay, { once: true, passive: true });
+  });
+})();
