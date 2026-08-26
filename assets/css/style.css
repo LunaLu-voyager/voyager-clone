@@ -701,6 +701,32 @@ ul{list-style:none}
 .hero-anim{background:#101216}
 .hero-anim video{background:#101216}
 @media (max-width:768px){
-  .hero-anim{background:#101216 url('assets/img/hero-poster.webp') center/cover no-repeat;min-height:230px}
-  .hero-anim video{display:none}
+  .hero-anim:has(video){background:#101216 url('../img/hero-poster.webp') center/cover no-repeat;min-height:230px}
+  .hero-anim:has(video) video{display:none}
+}
+
+
+/* ===== 手机端修复 2026-08-26 ===== */
+/* 新闻列表：手机端单列、图片置顶、日期+正文并排 */
+@media (max-width:640px){
+  .news-list{grid-template-columns:1fr;gap:18px}
+  .news-item{display:grid;grid-template-columns:64px 1fr;grid-template-areas:"img img" "date body";padding:0;overflow:hidden;gap:0}
+  .news-item .news-img{grid-area:img;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:0;flex:none}
+  .news-item .date{grid-area:date;flex:none;width:auto;border-right:none;padding:12px 0 0 16px;text-align:left}
+  .news-item .date b{font-size:20px}
+  .news-item .date span{font-size:11px}
+  .news-item .date + div{grid-area:body;padding:12px 16px 0;min-width:0}
+  .news-item h4{font-size:15px;line-height:1.55}
+  .news-item p{font-size:13px;line-height:1.7}
+}
+/* 视觉感知折叠卡片：手机端单列、产品图换行不溢出 */
+@media (max-width:640px){
+  .sensing-cols{grid-template-columns:1fr;gap:12px}
+  .sensing-item{padding:12px 14px;font-size:13px;line-height:1.7}
+  .cam-row{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .cam-row img{width:120px;height:120px}
+  .cam-row .pics{flex-wrap:wrap;gap:8px}
+  .cam-row .pp img{width:48px;height:48px}
+  .sensing-table th,.sensing-table td{padding:10px 12px;font-size:13px}
+  .sensing-block{margin-top:22px}
 }
