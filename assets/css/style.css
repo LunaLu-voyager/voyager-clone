@@ -700,9 +700,11 @@ ul{list-style:none}
 /* ===== 视频加载优化 2026-08-25 ===== */
 .hero-anim{background:#101216}
 .hero-anim video{background:#101216}
+.hero-anim .hero-anim-mb{display:none}
 @media (max-width:768px){
   .hero-anim:has(video){background:#101216;min-height:0}
-  .hero-anim:has(video) video{display:block}
+  .hero-anim:has(video) video{display:none}
+  .hero-anim:has(video) .hero-anim-mb{display:block;width:100%;height:auto}
 }
 
 
@@ -751,4 +753,11 @@ ul{list-style:none}
 /* 首页通用智能体简介：手机端单行显示 */
 @media (max-width:640px){
   .agents .wrap > p.reveal{font-size:13px;letter-spacing:0;max-width:100%;margin-bottom:30px}
+}
+
+/* ===== 手机端 Hero 背景替换 ===== */
+.hero-bg .hero-bg-mobile{display:none}
+@media (max-width:768px){
+  .hero-bg .hero-bg-desktop{display:none}
+  .hero-bg .hero-bg-mobile{display:block}
 }
