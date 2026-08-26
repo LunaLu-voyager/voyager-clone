@@ -761,3 +761,10 @@ ul{list-style:none}
   .hero-bg .hero-bg-desktop{display:none}
   .hero-bg .hero-bg-mobile{display:block}
 }
+
+/* ===== 技术路线 tech-mid 手机端裁剪图 ===== */
+.tech-mid-mb{display:none}
+@media (max-width:768px){
+  #techMid .tech-mid-d{display:none !important}
+  #techMid .tech-mid-mb{display:block;width:100%;height:auto}
+}
